@@ -1,0 +1,43 @@
+/* Apply Bootstrap styles to the contact form */
+#ncf-contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#ncf-contact-form input[type="text"],
+#ncf-contact-form input[type="email"],
+#ncf-contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#ncf-contact-form input[type="submit"] {
+    background-color: rgba(13, 87, 13, 0.74);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#ncf-contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style for reCAPTCHA */
+.g-recaptcha {
+    margin-bottom: 15px;
+}
+
+/* Error message styles (customize as needed) */
+.error-message {
+    color: #d9534f;
+    font-size: 14px;
+}
+
+/* Success message styles (customize as needed) */
+.success-message {
+    color: #5bc0de;
+    font-size: 14px;
+}
